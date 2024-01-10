@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         VIRTUALENV = 'venv'
-        DOCKER_CRED = credentials('Dawei-Dockerhub')
+        DOCKER_CRED = credentials('dockerhub-as')
     }
 
     stages {
